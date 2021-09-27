@@ -1,0 +1,52 @@
+
+body {
+    background-image: linear-gradient(darkgreen, powderblue);
+  }
+  h1 {
+    color:blue;
+  }
+  
+  p {
+    color: #88B04B;
+    border:darksalmon 3px
+  }
+
+  article {
+      text-align: center;
+      font-size: 30px;
+      
+  }
+
+  aside <id>="quote" {
+    text-align: center;
+    float: right;
+    padding-right: 15px;
+  }
+  
+ header {
+    color:#88B04B;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150px;
+    text-align: center;
+    border: salmon;
+
+            
+
+        }
+nav {
+    color:darkgreen;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    border: 2px darksalmon;
+    text-align: center;
+        }
+
+  dl {
+     color:#88B04B;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 20px;
+     border: #88B04B;
+     text-align: left;
+          
+        }
+   
