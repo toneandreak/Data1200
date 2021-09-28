@@ -1,13 +1,14 @@
 
 body {
-    background-image: linear-gradient(darkgreen, powderblue);
+    background-image: linear-gradient(rgb(148, 212, 148), rgb(140, 195, 202));
   }
   h1 {
-    color:blue;
+    color:rgb(0, 0, 0);
+    font-size: 80 px;
   }
   
   p {
-    color: #88B04B;
+    color: #000000;
     border:darksalmon 3px
   }
 
@@ -17,36 +18,55 @@ body {
       
   }
 
-  aside <id>="quote" {
-    text-align: center;
+  #quote {
+    text-align: left;
+    font-size: 30px;
     float: right;
-    padding-right: 15px;
+    padding-right: 5px;
+    border: 5px solid green;
+    border-radius: 10px;
+
   }
   
  header {
-    color:#88B04B;
+    color:rgb(33, 48, 11);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 150px;
     text-align: center;
     border: salmon;
+}
 
-            
+#navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  }
 
-        }
-nav {
-    color:darkgreen;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
-    border: 2px darksalmon;
-    text-align: center;
-        }
+li {
+  float: left;
+    }
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+        
+li a:hover {
+  background-color: #111;
+  }
+a:visited{
+  background-color: rgb(34, 116, 77);
+    }
 
-  dl {
-     color:#88B04B;
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     font-size: 20px;
-     border: #88B04B;
-     text-align: left;
-          
-        }
-   
+dl {
+  color:black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  border: #88B04B;
+  text-align: left;
+    }
+
