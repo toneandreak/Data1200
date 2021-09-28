@@ -1,0 +1,23 @@
+
+  .column {
+    float: left;
+    width: 25%;
+    padding: 15px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column.side {
+      float: right;
+      width: 25%;
+      padding: 15px;
+      
+  }
+  
+  
+
+  
+    
